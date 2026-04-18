@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YPI INSAN QUR'ANI | TK • SD • SMP Terbaik</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sawah-green': {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            900: '#14532d'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        * { font-family: 'Poppins', sans-serif; }
+        .gradient-hero {
+            background: linear-gradient(135deg, #14532d 0%, #22c55e 50%, #86efac 100%);
+        }
+        .scroll-smooth { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-lg border-b border-sawah-green/20">
+        <div class="justify-between mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-2">
+                   <img src="logo.jpg" class="h-12 w-auto object-contain">
+                    <span class=" font-bold bg-gradient-to-t from-sawah-700 to-sawah-600 bg-clip-text text-green-600">
+                        YPI INSAN QUR'ANI
+                    </span>
+                </div>
+                <div class=" justify-center md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-sawah-600 font-medium transition-all duration-300">Beranda</a>
+                    <a href="#jenjang" class="text-gray-700 hover:text-sawah-600 font-medium transition-all duration-300">Jenjang Pendidikan</a>
+                    <a href="#prestasi" class="text-gray-700 hover:text-sawah-600 font-medium transition-all duration-300">Prestasi</a>
+                    <a href="#kontak" class="text-gray-700 hover:text-sawah-600 font-medium transition-all duration-300">Kontak</a>
+                </div>
+                
+                  
+                
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="justify-between hidden hidden bg-white border-t border-sawah-green/20">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="#home" class="block px-4 py-2 text-gray-700 hover:text-sawah-600 font-medium">Beranda</a>          
+                <a href="#jenjang" class="block px-4 py-2 text-gray-700 hover:text-sawah-600 font-medium">Jenjang Pendidikan</a>
+                <a href="#prestasi" class="block px-4 py-2 text-gray-700 hover:text-sawah-600 font-medium">Prestasi</a>
+                <a href="#kontak" class="block px-4 py-2 text-gray-700 hover:text-sawah-600 font-medium">Kontak</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-hero min-h-screen flex items-center justify-center text-white pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="max-w-4xl mx-auto">
+                 <img src="logo.jpg" class="h-15 w-auto object-contain mx-auto mb-6">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
+                    Yayasan Pendidikan Islam <br>
+                    <span class="bg-white/20 px-6 py-3 rounded-full inline-block">INSAN QUR'ANI</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 font-light leading-relaxed max-w-2xl mx-auto opacity-90">
+                    "Membangun Generasi Emas dengan <strong>Pendidikan Terpadu</strong>, Karakter Mulia, dan Prestasi Gemilang"
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+                    <a href="#jenjang"  class="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-sawah-700 transition-all duration-300">
+                        <i class="fas fa-search mr-2"></i>Cek Jenjang Pendidikan
+                    </a>
+                    <a href="https://wa.me/6282331387970" class="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-sawah-700 transition-all duration-300">
+                        <i class="fab fa-whatsapp mr-2"></i>Hubungi Kami
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Visi Misi -->
+    <section class="py-24 bg-white">
+       
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Visi & Misi Kami</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Komitmen bulat membentuk generasi unggul yang berakhlak mulia dan berprestasi global</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <div class="bg-gradient-to-br from-sawah-100 to-sawah-200 p-8 rounded-3xl shadow-xl mb-8">
+                        <i class="fas fa-eye text-4xl text-sawah-700 mb-6 block"></i>
+                        <h3 class="text-3xl font-bold text-gray-900 mb-6">Visi</h3>
+                        <p class="text-lg text-gray-700 leading-relaxed">
+                            Menjadi <strong>referensi utama pendidikan berkarakter Islam modern</strong> yang melahirkan pemimpin masa depan berprestasi nasional dan internasional.
+                        </p>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-gradient-to-br from-sawah-100 to-sawah-200 p-8 rounded-3xl shadow-xl mb-8">
+                        <div class="w-10 h-10 bg-sawah-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">1</div>
+                        <div>
+                            <i class="fas fa-eye text-4xl text-sawah-700 mb-6 block"></i>
+                            <h4 class="font-semibold text-xl text-gray-900 mb-2">Membangun Karakter Mulia</h4>
+                            <p class="text-gray-600">Menanamkan nilai-nilai agama dan moral sejak dini melalui pembelajaran terintegrasi.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-sawah-100 to-sawah-200 p-8 rounded-3xl shadow-xl mb-8">
+                        <div class="w-10 h-10 bg-sawah-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">2</div>
+                        <div>
+                            <i class="fas fa-eye text-4xl text-sawah-700 mb-6 block"></i>
+                            <h4 class="font-semibold text-xl text-gray-900 mb-2">Akademik Unggul</h4>
+                            <p class="text-gray-600">Pencapaian akademik terbaik dengan kurikulum nasional plus internasional.</p>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-sawah-100 to-sawah-200 p-8 rounded-3xl shadow-xl mb-8">
+                        <div class="w-10 h-10 bg-sawah-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">3</div>
+                        <div>
+                            <i class="fas fa-eye text-4xl text-sawah-700 mb-6 block"></i>
+                            <h4 class="font-semibold text-xl text-gray-900 mb-2">Prestasi Holistik</h4>
+                            <p class="text-gray-600">Mengasah potensi siswa di bidang akademik, olahraga, seni, dan teknologi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       
+    </section>
+
+   
+
+    <!-- Jenjang Pendidikan -->
+    <section id="jenjang" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Pilih Jenjang Pendidikan</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Setiap jenjang dirancang khusus untuk optimalisasi potensi anak Anda</p>
+            </div>
+            
+            <!-- TK Section -->
+            <div id="tk" class="mb-24">
+                <div class="bg-gradient-to-r from-yellow-400 via-orange-400 to-pink-400 rounded-4xl p-2 mb-8">
+                    <div class="bg-white rounded-3xl p-12 text-center">
+                        <div class="inline-flex items-center bg-gradient-to-r from-yellow-500 to-orange-500 text-white px-8 py-4 rounded-full mb-8 font-bold text-2xl shadow-2xl">
+                            <i class="fas fa-baby-carriage mr-3 text-3xl"></i>
+                            Taman Kanak-Kanak
+                        </div>
+                        <h3 class="text-4xl font-bold text-gray-900 mb-8">TKIT Insan Qur'ani</h3>
+                        <p class="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+                           Ayah dan Bunda, masa emas si kecil adalah waktu terbaik untuk menanamkan akhlak dan kecintaan pada Al-Qur'an. Di TKIT Insan Qur'ani, <strong>kami membantu ananda tumbuh menjadi generasi bertaqwa dengan cara yang menyenangkan! </strong>
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-8 mb-12">
+                            <div class="text-left">
+                                <h4 class="text-2xl font-bold text-sawah-700 mb-6">EkstraKulikuler</h4>
+                                <ul class="space-y-3 text-lg">
+                                   <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Drumband</li>
+                                   <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Menari</li>
+                                   <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Mewarnai</li>
+                                   <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Bermain Peran</li>
+                                </ul>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="text-2xl font-bold text-sawah-700 mb-6">Program Unggulan</h4>
+                                <ul class="space-y-3 text-lg">
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Mengaji Metode Talaqqi</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Hafalan Surat Pendek, Bacaan Sholat, Doa-doa Harian</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Pendidikan karakter dan Akhlaq Mulia</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Pengembangan Minat dan Bakat</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Metode Pembelajaran Interaktif dan Menyenangkan</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="https://wa.me/6283895014631?text=Saya%20tertarik%20daftar%20TKIT%20Insan%20Qurani" class="bg-gradient-to-r from-sawah-600 to-sawah-700 text-white px-12 py-5 rounded-3xl font-bold text-xl shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300">
+                                <i class="fab fa-whatsapp mr-2"></i>Daftar TK Sekarang
+                            </a>
+                            <a href="#prestasi" class="border-3 border-sawah-600 text-sawah-700 px-12 py-5 rounded-3xl font-bold text-xl hover:bg-sawah-600 hover:text-white transition-all duration-300">
+                                Lihat Prestasi TK
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SD Section -->
+            <div id="sd" class="mb-24">
+                <div class="bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 rounded-4xl p-2 mb-8">
+                    <div class="bg-white rounded-3xl p-12 text-center">
+                        <div class="inline-flex items-center bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-8 py-4 rounded-full mb-8 font-bold text-2xl shadow-2xl">
+                            <i class="fas fa-school mr-3 text-3xl"></i>
+                            Sekolah Dasar
+                        </div>
+                        <h3 class="text-4xl font-bold text-gray-900 mb-8">SDIT Insan Qur'ani</h3>
+                        <p class="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+                           Ayah dan Bunda, pendidikan dasar adalah pondasi utama bagi masa depan putra-putri kita. Di SDIT Insan Qur’ani, kami memadukan <strong> kecerdasan akademis dengan kekayaan spiritual melalui Integrasi Kurikulum Nasional & Diniah. </strong> 
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-8 mb-12">
+                            <div class="text-left">
+                                <h4 class="text-2xl font-bold text-sawah-700 mb-6">ekstra kulikuler</h4>
+                                <ul class="space-y-3 text-lg">
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Tahfidz</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Pramuka</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Drumband</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Seni Tilawah</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Hadroh Banjari</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Khitobah</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="text-2xl font-bold text-sawah-700 mb-6">Program Unggulan</h4>
+                                <ul class="space-y-3 text-lg">
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Mengaji AL Qur'an metode Talaqqi</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Tahfidz One Day One Ayat sistem Tikror</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Integrasi Kurikulum Nasional & Diniah</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Pembiasaan Sholat Jama'ah & Akhlaq Mulia</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="https://wa.me/6281249212032?text=Saya%20tertarik%20daftar%20SDIT%20Insan%20Quran" class="bg-gradient-to-r from-sawah-600 to-sawah-700 text-white px-12 py-5 rounded-3xl font-bold text-xl shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300">
+                                <i class="fab fa-whatsapp mr-2"></i>Daftar SD Sekarang
+                            </a>
+                            <a href="#prestasi" class="border-3 border-sawah-600 text-sawah-700 px-12 py-5 rounded-3xl font-bold text-xl hover:bg-sawah-600 hover:text-white transition-all duration-300">
+                                Lihat Prestasi SD
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SMP Section -->
+            <div id="smp">
+                <div class="bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400 rounded-4xl p-2 mb-8">
+                    <div class="bg-white rounded-3xl p-12 text-center">
+                        <div class="inline-flex items-center bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-8 py-4 rounded-full mb-8 font-bold text-2xl shadow-2xl">
+                            <i class="fas fa-university mr-3 text-3xl"></i>
+                            Sekolah Menengah Pertama
+                        </div>
+                        <h3 class="text-4xl font-bold text-gray-900 mb-8">SMP Tahfidz Insan Qur'ani</h3>
+                        <p class="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+                             Headline: Bukan Sekadar Hafal Al-Qur'an, Tapi Juga Berkarakter dan Terampil Beraksi!
+
+                                Di <strong> SMP Tahfidz Insan Qur’ani </strong>, bakat ananda akan dikembangkan secara maksimal. Kami percaya setiap anak memiliki potensi emas!
+                        </p>
+                        <div class="grid md:grid-cols-2 gap-8 mb-12">
+                            <div class="text-left">
+                                <h4 class="text-2xl font-bold text-sawah-700 mb-6">Ekstrakurikuler</h4>
+                                <ul class="space-y-3 text-lg">
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Tahfidz</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Pramuka</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Drumband</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Seni Tilawah</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Hadroh Banjari</li>
+                                    <li><i class="fas fa-trophy text-yellow-500 mr-3"></i>Khitobah</li>
+                                </ul>
+                            </div>
+                            <div class="text-left">
+                                <h4 class="text-2xl font-bold text-sawah-700 mb-6">Program Unggulan</h4>
+                                <ul class="space-y-3 text-lg">
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Tahfidz dan Tahsin Al Quran</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Dauroh Arabic English</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>Nahwu Shorof dan Kitab Kuning</li>
+                                    <li><i class="fas fa-check text-sawah-600 mr-3"></i>KBM Berbasis Digital</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="https://wa.me/6285725273022?text=Saya%20tertarik%20daftar%20SMP%20Insan%20Qurani" class="bg-gradient-to-r from-sawah-600 to-sawah-700 text-white px-12 py-5 rounded-3xl font-bold text-xl shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300">
+                                <i class="fab fa-whatsapp mr-2"></i>Daftar SMP Sekarang
+                            </a>
+                            <a href="#prestasi" class="border-3 border-sawah-600 text-sawah-700 px-12 py-5 rounded-3xl font-bold text-xl hover:bg-sawah-600 hover:text-white transition-all duration-300">
+                                Lihat Prestasi SMP
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prestasi -->
+    <section id="prestasi" class="py-24 bg-gradient-to-b from-sawah-50 to-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Galeri Prestasi</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Raihan prestasi siswa kami yang membanggakan</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 mb-16">
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-trophy text-6xl text-yellow-500 mb-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">15</h3>
+                        <p class="text-gray-600 font-semibold">Piala Smp</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-trophy text-6xl text-amber-500 mb-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">43</h3>
+                        <p class="text-gray-600 font-semibold">Piala SD</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300">
+                    <div class="text-center mb-6">
+                        <i class="fas fa-trophy text-6xl text-orange-500 mb-4"></i>
+                        <h3 class="text-2xl font-bold text-gray-900">29</h3>
+                        <p class="text-gray-600 font-semibold">Piala TK</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabel Prestasi -->
+            <div class="overflow-x-auto">
+                <table class="w-full bg-white rounded-3xl shadow-2xl overflow-hidden">
+                    <thead class="bg-gradient-to-r from-sawah-700 to-sawah-600 text-white">
+                        <tr>
+                            <th class="p-6 text-left font-bold text-lg">Kompetisi</th>
+                            <th class="p-6 text-center font-bold text-lg">Jenjang</th>
+                            <th class="p-6 text-center font-bold text-lg">Prestasi</th>
+                            <th class="p-6 text-center font-bold text-lg">Tingkat</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">khitobah</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-bold">smp</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 2</td>
+                            <td class="p-6 text-center font-bold">Jatim</td>
+                        </tr>
+                        <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Pidato Bahasa Inggris</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-yellow-100 text-yellow-800 rounded-full font-bold">smp</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara harapan 2</td>
+                            <td class="p-6 text-center font-bold">Vestival</td>
+                        </tr>
+                        <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Cipta Baca Puisi</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-purple-100 text-purple-800 rounded-full font-bold">SMP</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 3</td>
+                            <td class="p-6 text-center font-bold">Vestival</td>
+                        </tr>
+                        <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Aswatuna</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full font-bold">SMP</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 2</td>
+                            <td class="p-6 text-center font-bold">Jatim</td>
+                        </tr>
+                        <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Singer</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-blue-100 text-emerald-800 rounded-full font-bold">SMP</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 3</td>
+                            <td class="p-6 text-center font-bold">Vestival</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Drumband</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-yellow-100 text-emerald-800 rounded-full font-bold">SD</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara umum</td>
+                            <td class="p-6 text-center font-bold">Persatuan Drum band Indonesia</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Pidacil</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-purple-100 text-emerald-800 rounded-full font-bold">SD</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 1</td>
+                            <td class="p-6 text-center font-bold">Kecamatan</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Sains</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full font-bold">SD</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 2</td>
+                            <td class="p-6 text-center font-bold">Hari Jadi Nganjuk</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Tartil</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-blue-100 text-emerald-800 rounded-full font-bold">SD</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 1</td>
+                            <td class="p-6 text-center font-bold">Kecamatan</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">colour guard</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-yellow-100 text-emerald-800 rounded-full font-bold">TK</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 3</td>
+                            <td class="p-6 text-center font-bold">Kecamatan</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Drumband</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-purple-100 text-emerald-800 rounded-full font-bold">TK</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Harapan 1</td>
+                            <td class="p-6 text-center font-bold">Kabupaten</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Kebersihan</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full font-bold">TK</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara 2</td>
+                            <td class="p-6 text-center font-bold">Yayasan</td>
+                        </tr>
+                         <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">B.K.O.D.C.</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-blue-100 text-emerald-800 rounded-full font-bold">TK</span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 Juara Umum</td>
+                            <td class="p-6 text-center font-bold">Kabupaten</td>
+                        </tr>
+                        <tr class="hover:bg-sawah-50/50 transition-colors duration-200">
+                            <td class="p-6 font-semibold">Dan Masih Banyak Lagii...!</td>
+                            <td class="p-6 text-center"><span class="px-4 py-2 bg-yellow-100 text-emerald-800 rounded-full font-bold"></span></td>
+                            <td class="p-6 text-center font-bold text-2xl text-green-600">🏆 </td>
+                            <td class="p-6 text-center font-bold"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Foto -->
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Keseruan Belajar di YPI Insan Qur'ani</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Lihat kebahagiaan siswa kami dalam setiap momen pembelajaran</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <img src="smp.jpg" alt="Kegiatan Outdoor" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-2xl font-bold mb-2">Kegiatan Outdoor</h4>
+                        <p class="opacity-90">Belajar sambil bermain di ruang terbuka</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <img src="dramben.jpg" alt="Kelas Interaktif" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-2xl font-bold mb-2">Drumband </h4>
+                        <p class="opacity-90">Pembelajaran dan hiburan sambil asik asik</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <img src="merak.jpg" alt="Lomba Siswa" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-2xl font-bold mb-2">Satu yang indah, semua yang bangga</h4>
+                        <p class="opacity-90">Engga ada kata iri, dengki, karna kita satuu, kita saudara sampai kapanpun</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <img src="wisuda.JPG" alt="Lomba Siswa" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-2xl font-bold mb-2">Akhir yang bukan kesedihan</h4>
+                        <p class="opacity-90">Pembelajaran kepada siswa bahwa suatu pertemuan pasti ada perpisahan</p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <img src="biru.jpg" alt="Lomba Siswa" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-2xl font-bold mb-2">Semuanya Keluarga</h4>
+                        <p class="opacity-90">Saling mendukung, saling mengingatkan, karna kita itu menyatu, sampai kapanpun itu </p>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
+                    <img src="gedung.jpg" alt="Lomba Siswa" class="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div class="absolute bottom-6 left-6 right-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <h4 class="text-2xl font-bold mb-2">Inilah rumah kita</h4>
+                        <p class="opacity-90">Tempat diamana kita di didik menjadi lebih baik, di mana kita meraup setiap tetes kesuksesan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak & Footer -->
+    <section id="kontak" class="bg-gradient-to-b from-sawah-900 to-sawah-700 py-24 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-sawah-600/30 via-transparent to-transparent"></div>
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-2 gap-16 items-center mb-20">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-bold text-green-600 mb-6">Siap Masuk YPI Insan Qur'ani?</h2>
+                    <p class="text-xl text-sawah-100 mb-8 leading-relaxed max-w-lg">
+                        Jangan lewatkan kesempatan emas ini! Daftarkan anak Anda sekarang dan rasakan perbedaan kualitas pendidikan terbaik.
+                    </p>
+                    <div class="space-y-4 mb-12">
+                        <div class="flex items-center text-sawah-100">
+                            <i class="fas fa-phone text-2xl text-sawah-400 mr-4"></i>
+                            <span>📞 +6287864659070</span>
+                        </div>
+                        <div class="flex items-center text-sawah-100">
+                            <i class="fas fa-envelope text-2xl text-sawah-400 mr-4"></i>
+                            <span>✉️ Email</span>
+                        </div>
+                        <div class="flex items-center text-sawah-100">
+                            <i class="fas fa-clock text-2xl text-sawah-400 mr-4"></i>
+                            <span>🕒 Senin-Jumat: 07.00 - 17.00</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="relative">
+                    <!-- Google Maps Placeholder -->
+                    <div class="bg-gradient-to-br from-gray-300 to-gray-400 rounded-3xl p-12 text-center shadow-2xl h-96 flex items-center justify-center">
+                        <div>
+                            <i class="fas fa-map-marker-alt text-6xl text-gray-600 mb-6"></i>
+                            <h3 class="text-2xl font-bold text-gray-700 mb-4">Lokasi Kami</h3>
+                            <p class="text-lg text-gray-600 mb-6">Dusun Sumberwoto<br>Gang Modern RT 02 RW 02<br>Desa Sonorejo Kec. Grogol Kab. Kediri </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Final -->
+            <div class="text-center bg-gray-100 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border border-white/30">
+                <h3 class="text-3xl md:text-4xl font-bold text-green-600 mb-6">🚀 Karena investasi terbaik bukanlah harta, melainkan anak yang sholeh dan beradab!</h3>
+                <p class="text-xl text-sawah-100 mb-8 max-w-2xl mx-auto">
+                     Mari melangkah bersama <strong> YPI Insan Qur’ani </strong> untuk mewujudkan mimpi ananda menjadi penjaga Al-Qur'an di masa depan.
+
+                     Daftar sekarang, jemput keberkahan untuk masa depan si kecil
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="https://wa.me/6287864659070?text=Halo%20Admin,%20saya%20ingin%20informasi%20ppdb%20lengkap" class="bg-gradient-to-r from-emerald-500 to-green-600 text-white px-12 py-6 rounded-3xl font-bold text-xl shadow-2xl hover:shadow-3xl hover:scale-105 transition-all duration-300 flex items-center mx-auto sm:mx-0">
+                        <i class="fab fa-whatsapp text-2xl mr-3 animate-pulse"></i>
+                        <span class="uppercase tracking-wide">Daftar Sekarang!</span>
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-black py-12 border-t border-sawah-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <i class="fas fa-graduation-cap text-3xl text-sawah-400"></i>
+                        <span class="text-2xl font-bold bg-gradient-to-r from-sawah-400 to-sawah-300 bg-clip-text text-green-600">
+                            YPI INSAN QUR'ANI
+                        </span>
+                    </div>
+                    <p class="text-sawah-300 mb-6 leading-relaxed">
+                        Yayasan pendidikan terdepan yang menggabungkan kurikulum terbaik nasional dan internasional dengan pembentukan karakter Islami.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/p/YPI-Insan-Qurani-100079606849223/" class="w-12 h-12 bg-sawah-800 hover:bg-sawah-700 rounded-xl flex items-center justify-center text-sawah-300 hover:text-white transition-all duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sditiq3_05/" class="w-12 h-12 bg-sawah-800 hover:bg-sawah-700 rounded-xl flex items-center justify-center text-sawah-300 hover:text-white transition-all duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@ypiinsanquranigrogolkediri1804" class="w-12 h-12 bg-sawah-800 hover:bg-sawah-700 rounded-xl flex items-center justify-center text-sawah-300 hover:text-white transition-all duration-300">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                       
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold text-green-600 mb-6">Jenjang Pendidikan</h4>
+                    <ul class="space-y-3 text-sawah-300">
+                        <li><a href="#tk" class="hover:text-sawah-400 transition-colors duration-200">TKIT Insan Qur'ani</a></li>
+                        <li><a href="#sd" class="hover:text-sawah-400 transition-colors duration-200">SDIT Insan Qur'ani</a></li>
+                        <li><a href="#smp" class="hover:text-sawah-400 transition-colors duration-200">SMP Tahfidz Insan Qur'ani</a></li>
+                    </ul>
+                </div>
+               
+                <div>
+                    <h4 class="text-xl font-bold text-green-600 mb-6">Hubungi Kami</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-sawah-300 hover:text-sawah-400 transition-colors duration-200">
+                            <i class="fas fa-map-marker-alt mr-3 text-sawah-400"></i>
+                           Sonorejo Grogol Kediri
+                        </div>
+                        <div class="flex items-center text-sawah-300 hover:text-sawah-400 transition-colors duration-200">
+                            <i class="fas fa-phone mr-3 text-sawah-400"></i>
+                            📞 +6287864659070
+                        </div>
+                        <div class="flex items-center text-sawah-300 hover:text-sawah-400 transition-colors duration-200">
+                            <i class="fas fa-envelope mr-3 text-sawah-400"></i>
+                           Email@.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-sawah-800 pt-8 text-center text-sawah-400">
+                <p>&copy; 2026 Yayasan Pendidikan Islam Insan Qur'ani. Semua hak dilindungi. Dibuat dengan ❤️ untuk generasi emas Indonesia.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scroll untuk semua link
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Tutup mobile menu jika terbuka
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Animasi fade in saat scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe semua elemen dengan class animate-fade-in
+        document.querySelectorAll('.group, [class*="shadow"], .rounded-3xl').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+            observer.observe(el);
+        });
+
+        // Parallax effect untuk hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('#home');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+        });
+
+        // Countdown timer (placeholder)
+        function startCountdown() {
+            const now = new Date();
+            const target = new Date('2025-01-15T00:00:00');
+            const diff = target - now;
+            
+            if (diff > 0) {
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                
+                // Update element jika ada
+                const quotaEl = document.querySelector('.text-sawah-100.text-lg.font-semibold');
+                if (quotaEl) {
+                    quotaEl.innerHTML = `<i class="fas fa-fire text-orange-400 mr-2"></i>Kuota Tinggal ${100 - days * 5}%`;
+                }
+            }
+        }
+
+        setInterval(startCountdown, 1000 * 60 * 60 * 24); // Update daily
+    </script>
+
+</body>
+</html>
